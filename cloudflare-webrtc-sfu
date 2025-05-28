@@ -1,1 +1,101 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlashDoom Replica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1 class="logo">FlashDoom</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h2>Welcome to FlashDoom</h2>
+      <p>Your ultimate web experience.</p>
+      <button class="cta-button">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="feature-item">
+        <h3>Fast Performance</h3>
+        <p>Experience blazing fast speed.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Responsive Design</h3>
+        <p>Optimized for all devices.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Customizable</h3>
+        <p>Tailor the experience to your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Learn more about our mission and values.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 FlashDoom. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+<form>
+  <label for="name">Name</label>
+  <input id="name" type="text" placeholder="Name" required>
+
+  <label for="email">Email</label>
+  <input id="email" type="email" placeholder="Email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" placeholder="Message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+html {
+  scroll-behavior: smooth;
+}
+<meta name="description" content="FlashDoom - Your ultimate web experience.">
+<meta name="author" content="Your Name or Team">
+<button class="cta-button" onclick="document.getElementById('features').scrollIntoView({ behavior: 'smooth' });">Get Started</button>
